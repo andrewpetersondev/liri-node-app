@@ -35,5 +35,30 @@ var input = process.argv[3];
 // functions
 // =====================================================================================================================================
 
+function runUserInput(command, input) {
+    switch (command) {
+        case "concert-this":
+            console.log("run concert this");
+            concertThis(input);
+            break;
+        case "spotify-this-song":
+            console.log("run spotify this song");
+            spotifyThisSong(input);
+            break;
+        case "movie-this":
+            console.log("run movie this");
+            movieThis(input);
+            break;
+        case "do-what-it-says":
+            console.log("run do what it says");
+            doWhatItSays(input);
+            break;
+        default:
+            console.log("invalid option");
+
+    }
+}
+
+
 // main processes
 // =====================================================================================================================================
