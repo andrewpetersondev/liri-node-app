@@ -59,10 +59,10 @@ async function concertThis(input) {
             var momentDateFormat = moment(dateArray[0]).format("MM/DD/YYYY");
 
             // store results in a the following way so that we can easily pass data into our log.txt file
-            var concertResults = "======================= Concert " + i + " =======================" + 
-            "\nVenue Name: " + venueName +
-            "\nVenue Location: " + venueLocation +
-            "\nConcert Date: " + momentDateFormat + "\r\n";
+            var concertResults = "======================= Concert " + i + " =======================" +
+                "\nVenue Name: " + venueName +
+                "\nVenue Location: " + venueLocation +
+                "\nConcert Date: " + momentDateFormat + "\r\n";
 
             console.log(concertResults);
 
@@ -105,13 +105,24 @@ function spotifyThisSong(input) {
             var previewURL = data.tracks.items[i].preview_url;
             // var link = data.tracks.items[i].album.external_urls["spotify"];
 
-            // testing and debugging
-            // console.log(songs);
-            console.log("===========================================" +
+            // store results in a the following way so that we can easily pass data into our log.txt file
+            var songResults = "======================= Song " + i + " =======================" +
                 "\nArtist: " + artist +
                 "\nSong Name: " + songName +
                 "\nAlbum Name: " + albumName +
-                "\nPreview Link: " + previewURL);
+                "\nPreview Link : " + previewURL + "\r\n";
+
+            console.log(songResults);
+
+            appendLogFile(songResults);
+
+            // testing and debugging
+            // console.log(songs);
+            // console.log("===========================================" +
+            //     "\nArtist: " + artist +
+            //     "\nSong Name: " + songName +
+            //     "\nAlbum Name: " + albumName +
+            //     "\nPreview Link: " + previewURL);
 
         }
     });

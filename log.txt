@@ -26,3 +26,28 @@ Concert Date: 09/13/2019
 Venue Name: National Soccer Hall of Fame Induction Weekend
 Venue Location: Frisco
 Concert Date: 09/21/2019
+======================= Song 0 =======================
+Artist: Ace of Base
+Song Name: The Sign
+Album Name: The Sign (US Album) [Remastered]
+Preview Link : https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=7580d062ce384a6a9f5cede2d03732b1
+======================= Song 1 =======================
+Artist: Ace of Base
+Song Name: All That She Wants
+Album Name: The Sign (US Album) [Remastered]
+Preview Link : https://p.scdn.co/mp3-preview/b176774bc04182501c2d5d201afda143b1193f31?cid=7580d062ce384a6a9f5cede2d03732b1
+======================= Song 2 =======================
+Artist: Ace of Base
+Song Name: The Sign
+Album Name: Greatest Hits
+Preview Link : https://p.scdn.co/mp3-preview/5ca0168d6b58e0f993b2b741af90ecc7c9b16893?cid=7580d062ce384a6a9f5cede2d03732b1
+======================= Song 3 =======================
+Artist: Ace of Base
+Song Name: Don't Turn Around
+Album Name: The Sign (US Album) [Remastered]
+Preview Link : https://p.scdn.co/mp3-preview/9c8401c8142bdd011e51f0211be2e2d4afcd5cff?cid=7580d062ce384a6a9f5cede2d03732b1
+======================= Song 4 =======================
+Artist: Ace of Base
+Song Name: Wheel of Fortune
+Album Name: The Sign (US Album) [Remastered]
+Preview Link : https://p.scdn.co/mp3-preview/fd501a60ee611fda1dbb1c238d802fece5880dfc?cid=7580d062ce384a6a9f5cede2d03732b1
