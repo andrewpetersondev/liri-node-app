@@ -21,24 +21,19 @@ var input = process.argv[3];
 function runUserInput(command, input) {
     switch (command) {
         case "concert-this":
-            console.log("run concert this");
             concertThis(input);
             break;
         case "spotify-this-song":
-            console.log("run spotify this song");
             spotifyThisSong(input);
             break;
         case "movie-this":
-            console.log("run movie this");
             movieThis(input);
             break;
         case "do-what-it-says":
-            console.log("run do what it says");
             doWhatItSays(input);
             break;
         default:
-            console.log("invalid option. please input the following format : node liri.js 'command' 'input' ");
-
+            console.log("Your input was invalid. Please input the following format : node liri.js 'command' 'input' ");
     }
 }
 
@@ -53,7 +48,6 @@ async function concertThis(input) {
         for (var i = 0; i < response.data.length; i++) {
 
             // store concert results
-            // var stringResponse = JSON.stringify(response.data, null, 2);
             var venueName = response.data[i].venue.name;
             var venueLocation = response.data[i].venue.city;
             var concertDate = response.data[i].datetime;
@@ -63,7 +57,6 @@ async function concertThis(input) {
             // testing and debugging
             // console.log(response);
             // console.log(response.data);
-            // console.log(stringResponse);
             console.log("==============================================================" +
                 "\nVenue Name: " + venueName +
                 "\nVenue Location: " + venueLocation +
@@ -83,10 +76,11 @@ function spotifyThisSong(input) {
             return console.log('Error occurred: ' + err);
         }
 
+        // store songs data
         // var songs = data.tracks.items[0];
         var artist = data.tracks.items[0].album.artists[0].name;
         var songName = data.tracks.items[0].name;
-        var link = data.tracks.items[0].album.external_urls;
+        var link = data.tracks.items[0].album.external_urls["spotify"];
         var albumName = data.tracks.items[0].album.name;
 
         // testing and debugging
@@ -95,6 +89,8 @@ function spotifyThisSong(input) {
             "\nSong Name: " + songName +
             "\nPreview Link: " + link +
             "\nAlbum Name: " + albumName);
+
+        // console.log(link);
     });
 };
 
