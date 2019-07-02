@@ -71,7 +71,11 @@ async function concertThis(input) {
 
 function spotifyThisSong(input) {
 
-    spotify.search({ type: 'track', query: input, limit: 10 }, function (err, data) {
+    if (!input) {
+        input = "The Sign Ace of Base";
+    }
+
+    spotify.search({ type: 'track', query: input, limit: 5 }, function (err, data) {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
@@ -82,22 +86,27 @@ function spotifyThisSong(input) {
             // var songs = data.tracks.items[i];
             var artist = data.tracks.items[i].album.artists[0].name;
             var songName = data.tracks.items[i].name;
-            var link = data.tracks.items[i].album.external_urls["spotify"];
             var albumName = data.tracks.items[i].album.name;
+            var previewURL = data.tracks.items[i].preview_url;
+            // var link = data.tracks.items[i].album.external_urls["spotify"];
 
             // testing and debugging
             // console.log(songs);
             console.log("===========================================" +
                 "\nArtist: " + artist +
                 "\nSong Name: " + songName +
-                "\nPreview Link: " + link +
-                "\nAlbum Name: " + albumName);
+                "\nAlbum Name: " + albumName +
+                "\nPreview Link: " + previewURL);
 
         }
     });
 }
 
 function movieThis(input) {
+
+    if (!input) {
+        input = "Mr.Nobody";
+    }
 
     // Then run a request with axios to the OMDB API with the movie specified
     var queryURL = "http://www.omdbapi.com/?t=" + input + "&apikey=ead6c7f6";
@@ -119,7 +128,7 @@ function movieThis(input) {
 
             // testing and debugging
             console.log("============================================" +
-                "\nMovie Title:" + movieTitle +
+                "\nMovie Title: " + movieTitle +
                 "\nYear of Release: " + yearOfRelease +
                 "\nRating IMDB: " + ratingIMDB +
                 "\nRating Rotten Tomatoes: " + ratingRottenTomatoes +
