@@ -32,8 +32,12 @@ function runUserInput(command, input) {
         case "do-what-it-says":
             doWhatItSays(input);
             break;
-        default:
-            console.log("Your input was invalid. Please input the following format : node liri.js 'command' 'input' ");
+            default: console.log("\r\n" +"Try typing one of the following commands after 'node liri.js' : " +"\r\n"+
+			"\r\n" + "1. concert-this 'any artist or band name' " +"\r\n"+
+			"2. spotify-this-song 'any song name' "+"\r\n"+
+			"3. movie-this 'any movie name' "+"\r\n"+
+			"4. do-what-it-says."+"\r\n"+
+			"\r\n" + "Be sure to put the movie or song name in quotation marks if it's more than one word." + "\r\n");
     }
 }
 
@@ -55,19 +59,17 @@ async function concertThis(input) {
             var momentDateFormat = moment(dateArray[0]).format("MM/DD/YYYY");
 
             // appending log file
-            fs.appendFile("./log.txt", text, function(err) {
+            fs.appendFile("./log.txt", text, function (err) {
 
-                // If an error was experienced we will log it.
                 if (err) {
-                  console.log(err);
+                    console.log(err);
                 }
-              
-                // If no error is experienced, we'll log the phrase "Content Added" to our node console.
+
                 else {
-                  console.log("Content Added!");
+                    console.log("Content Added!");
                 }
-              
-              });
+
+            });
 
             // testing and debugging
             // console.log(response);
@@ -211,10 +213,10 @@ function doWhatItSays(input) {
 // function appendLogFile(command, input) {
 
 //     var text = "'\n===================================================='
-//     '\nCommand: ' + command + 
-//     '\nInput: ' + input + 
-//     '\nResponse: ' + 
-//     "
+//     '\nCommand: ' + command +
+//         '\nInput: ' + input +
+//         '\nResponse: ' +
+//         "
 
 //     fs.appendFileSync("./log.txt", text, function (err) {
 
