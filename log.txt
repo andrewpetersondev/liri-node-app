@@ -1,0 +1,28 @@
+======================= Concert 0 =======================
+Venue Name: The Avalon Ballroom Theatre At Niagara Fallsview Casino Resort
+Venue Location: Niagara Falls
+Concert Date: 07/25/2019
+======================= Concert 1 =======================
+Venue Name: The Avalon Ballroom Theatre At Niagara Fallsview Casino Resort
+Venue Location: Niagara Falls
+Concert Date: 07/26/2019
+======================= Concert 2 =======================
+Venue Name: Red Rocks Amphitheatre
+Venue Location: Morrison
+Concert Date: 08/26/2019
+======================= Concert 3 =======================
+Venue Name: Red Rocks Amphitheatre
+Venue Location: Morrison
+Concert Date: 08/27/2019
+======================= Concert 4 =======================
+Venue Name: Sept 13-15 | KAABOO Del Mar
+Venue Location: Del Mar
+Concert Date: 09/13/2019
+======================= Concert 5 =======================
+Venue Name: Pearl Concert Theater
+Venue Location: Las Vegas
+Concert Date: 09/13/2019
+======================= Concert 6 =======================
+Venue Name: National Soccer Hall of Fame Induction Weekend
+Venue Location: Frisco
+Concert Date: 09/21/2019
