@@ -64,15 +64,11 @@ async function concertThis(input) {
             // console.log(response);
             // console.log(response.data);
             // console.log(stringResponse);
-            console.log("==============================================================" + 
-            "\nVenue Name: " + venueName +
-            "\nVenue Location: " + venueLocation +
-            "\nConcert Date: " + momentDateFormat);
-
-
+            console.log("==============================================================" +
+                "\nVenue Name: " + venueName +
+                "\nVenue Location: " + venueLocation +
+                "\nConcert Date: " + momentDateFormat);
         }
-
-
 
     } catch (error) {
         console.error(error);
@@ -87,8 +83,21 @@ function spotifyThisSong(input) {
             return console.log('Error occurred: ' + err);
         }
 
-        console.log(data);
-        console.log(data.tracks.items[0]);
+
+        // var songs = data.tracks.items[0];
+        var artist = data.tracks.items[0].album.artists[0].name;
+        var albumName = data.tracks.items[0].album.name;
+        var link = data.tracks.items[0].album.external_urls;
+        var songName = data.tracks.items[0].name;
+
+        console.log(link);
+        // console.log(songs);
+        // console.log(songs.body);
+        console.log(artist);
+        console.log(songName);
+        console.log(albumName);
+
+        
     });
 
 };
@@ -96,14 +105,30 @@ function spotifyThisSong(input) {
 function movieThis(input) {
 
     // Then run a request with axios to the OMDB API with the movie specified
-    var queryURL = "http://www.omdbapi.com/?t=" + input + "&y=&plot=short&apikey=ead6c7f6";
+    var queryURL = "http://www.omdbapi.com/?t=" + input + "&apikey=ead6c7f6";
 
     // This line is just to help us debug against the actual URL.
     console.log(queryURL);
 
     axios.get(queryURL).then(
         function (response) {
-            console.log("Release Year: " + response.data.Year);
+
+            var movieTitle = response.data.Title;
+            var yearOfRelease = response.data.Year;
+            var ratingIMDB = response.data.imdbRating;
+            var ratingRottenTomatoes = response.data.Ratings[1].Value;
+
+            var countryProduced = response.data.Country;
+            var language = response.data.Language;
+            var plot = response.data.Plot;
+            var actorsActresses = response.data.Actors;
+
+
+            console.log("============================================" + 
+            "\nMovie Title:" + movieTitle + 
+            "\nYear of Release: " + yearOfRelease + 
+            "\nRating IMDB: " + ratingIMDB+ 
+            "\nRating Rotten Tomatoes: " + ratingRottenTomatoes);
         })
         .catch(function (error) {
             if (error.response) {
