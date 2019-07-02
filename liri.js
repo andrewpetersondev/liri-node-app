@@ -83,23 +83,19 @@ function spotifyThisSong(input) {
             return console.log('Error occurred: ' + err);
         }
 
-
         // var songs = data.tracks.items[0];
         var artist = data.tracks.items[0].album.artists[0].name;
-        var albumName = data.tracks.items[0].album.name;
-        var link = data.tracks.items[0].album.external_urls;
         var songName = data.tracks.items[0].name;
+        var link = data.tracks.items[0].album.external_urls;
+        var albumName = data.tracks.items[0].album.name;
 
-        console.log(link);
-        // console.log(songs);
-        // console.log(songs.body);
-        console.log(artist);
-        console.log(songName);
-        console.log(albumName);
-
-        
+        // testing and debugging
+        console.log("===========================================" +
+            "\nArtist: " + artist +
+            "\nSong Name: " + songName +
+            "\nPreview Link: " + link +
+            "\nAlbum Name: " + albumName);
     });
-
 };
 
 function movieThis(input) {
@@ -117,18 +113,21 @@ function movieThis(input) {
             var yearOfRelease = response.data.Year;
             var ratingIMDB = response.data.imdbRating;
             var ratingRottenTomatoes = response.data.Ratings[1].Value;
-
             var countryProduced = response.data.Country;
             var language = response.data.Language;
             var plot = response.data.Plot;
             var actorsActresses = response.data.Actors;
 
-
-            console.log("============================================" + 
-            "\nMovie Title:" + movieTitle + 
-            "\nYear of Release: " + yearOfRelease + 
-            "\nRating IMDB: " + ratingIMDB+ 
-            "\nRating Rotten Tomatoes: " + ratingRottenTomatoes);
+            // testing and debugging
+            console.log("============================================" +
+                "\nMovie Title:" + movieTitle +
+                "\nYear of Release: " + yearOfRelease +
+                "\nRating IMDB: " + ratingIMDB +
+                "\nRating Rotten Tomatoes: " + ratingRottenTomatoes +
+                "\nCountry Produced: " + countryProduced +
+                "\nLanguage: " + language +
+                "\nPlot: " + plot +
+                "\nActors & Actresses: " + actorsActresses);
         })
         .catch(function (error) {
             if (error.response) {
@@ -152,7 +151,12 @@ function movieThis(input) {
         });
 };
 
-function doWhatItSays(input) { };
+function doWhatItSays(input) {
+
+
+
+
+};
 
 
 // main processes
