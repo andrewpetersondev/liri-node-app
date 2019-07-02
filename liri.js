@@ -54,6 +54,21 @@ async function concertThis(input) {
             var dateArray = concertDate.split("T");
             var momentDateFormat = moment(dateArray[0]).format("MM/DD/YYYY");
 
+            // appending log file
+            fs.appendFile("./log.txt", text, function(err) {
+
+                // If an error was experienced we will log it.
+                if (err) {
+                  console.log(err);
+                }
+              
+                // If no error is experienced, we'll log the phrase "Content Added" to our node console.
+                else {
+                  console.log("Content Added!");
+                }
+              
+              });
+
             // testing and debugging
             // console.log(response);
             // console.log(response.data);
@@ -61,6 +76,8 @@ async function concertThis(input) {
                 "\nVenue Name: " + venueName +
                 "\nVenue Location: " + venueLocation +
                 "\nConcert Date: " + momentDateFormat);
+
+
         }
 
     } catch (error) {
@@ -157,23 +174,23 @@ function movieThis(input) {
             }
             console.log(error.config);
         });
-};
+}
 
 function doWhatItSays(input) {
 
-    fs.readFile("./random.txt", "utf8", function(error, data) {
+    fs.readFile("./random.txt", "utf8", function (error, data) {
 
         // If the code experiences any errors it will log the error to the console.
         if (error) {
-          return console.log(error);
+            return console.log(error);
         }
-      
+
         // print the contents of data
         // console.log(data);
-      
+
         // split text from random.txt into a command and an input
         var dataArray = data.split(",");
-      
+
         // display new array
         // console.log(dataArray);
 
@@ -186,11 +203,35 @@ function doWhatItSays(input) {
         // console.log(input);
 
         runUserInput(command, input);
-      
-      });
+
+    });
+
+}
+
+// function appendLogFile(command, input) {
+
+//     var text = "'\n===================================================='
+//     '\nCommand: ' + command + 
+//     '\nInput: ' + input + 
+//     '\nResponse: ' + 
+//     "
+
+//     fs.appendFileSync("./log.txt", text, function (err) {
+
+//         // If an error was experienced we will log it.
+//         if (err) {
+//             console.log(err);
+//         }
+
+//         // If no error is experienced, we'll log the phrase "Content Added" to our node console.
+//         else {
+//             console.log("Content Added!");
+//         }
+
+//     });
 
 
-};
+// }
 
 
 // main processes
