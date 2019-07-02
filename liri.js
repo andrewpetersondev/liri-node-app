@@ -71,7 +71,7 @@ async function concertThis(input) {
 
 function spotifyThisSong(input) {
 
-    spotify.search({ type: 'track', query: input }, function (err, data) {
+    spotify.search({ type: 'track', query: input, limit: 10 }, function (err, data) {
         if (err) {
             return console.log('Error occurred: ' + err);
         }

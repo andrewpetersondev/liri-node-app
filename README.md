@@ -23,7 +23,17 @@ Contain a link to a deployed version of the app
 Clearly list the technologies used in the app
 State your role in the app development
 
-## node spotify api search method
+## node spotify api search method #1
+
+- supposed to be the easiest method according to documentation
+
+```js
+
+search: function({ type: 'artist OR album OR track', query: 'My search query', limit: 20 }, callback);
+
+```
+
+## node spotify api search method #2
 
 ```js
 
