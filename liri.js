@@ -161,7 +161,33 @@ function movieThis(input) {
 
 function doWhatItSays(input) {
 
+    fs.readFile("./random.txt", "utf8", function(error, data) {
 
+        // If the code experiences any errors it will log the error to the console.
+        if (error) {
+          return console.log(error);
+        }
+      
+        // print the contents of data
+        // console.log(data);
+      
+        // split text from random.txt into a command and an input
+        var dataArray = data.split(",");
+      
+        // display new array
+        // console.log(dataArray);
+
+        // store command and input as variables
+        var command = dataArray[0];
+        var input = dataArray[1];
+
+        // testing and debugging
+        // console.log(command);
+        // console.log(input);
+
+        runUserInput(command, input);
+      
+      });
 
 
 };
