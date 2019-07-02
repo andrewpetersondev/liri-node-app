@@ -138,7 +138,7 @@ function movieThis(input) {
     var queryURL = "http://www.omdbapi.com/?t=" + input + "&apikey=ead6c7f6";
 
     // This line is just to help us debug against the actual URL.
-    console.log(queryURL);
+    // console.log(queryURL);
 
     axios.get(queryURL).then(
         function (response) {
@@ -152,8 +152,7 @@ function movieThis(input) {
             var plot = response.data.Plot;
             var actorsActresses = response.data.Actors;
 
-            // testing and debugging
-            console.log("============================================" +
+            var movieResults = "=============== " + movieTitle + " ===============" +
                 "\nMovie Title: " + movieTitle +
                 "\nYear of Release: " + yearOfRelease +
                 "\nRating IMDB: " + ratingIMDB +
@@ -161,7 +160,21 @@ function movieThis(input) {
                 "\nCountry Produced: " + countryProduced +
                 "\nLanguage: " + language +
                 "\nPlot: " + plot +
-                "\nActors & Actresses: " + actorsActresses);
+                "\nActors & Actresses: " + actorsActresses + "\r\n";
+
+            appendLogFile(movieResults)
+
+            // testing and debugging
+            console.log(movieResults);
+            // console.log("============================================" +
+            //     "\nMovie Title: " + movieTitle +
+            //     "\nYear of Release: " + yearOfRelease +
+            //     "\nRating IMDB: " + ratingIMDB +
+            //     "\nRating Rotten Tomatoes: " + ratingRottenTomatoes +
+            //     "\nCountry Produced: " + countryProduced +
+            //     "\nLanguage: " + language +
+            //     "\nPlot: " + plot +
+            //     "\nActors & Actresses: " + actorsActresses);
         })
         .catch(function (error) {
             if (error.response) {
@@ -232,7 +245,6 @@ function appendLogFile(dataToLog) {
         }
 
     });
-
 
 }
 
