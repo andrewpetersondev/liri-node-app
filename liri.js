@@ -76,23 +76,26 @@ function spotifyThisSong(input) {
             return console.log('Error occurred: ' + err);
         }
 
-        // store songs data
-        // var songs = data.tracks.items[0];
-        var artist = data.tracks.items[0].album.artists[0].name;
-        var songName = data.tracks.items[0].name;
-        var link = data.tracks.items[0].album.external_urls["spotify"];
-        var albumName = data.tracks.items[0].album.name;
+        for (var i = 0; i < data.tracks.items.length; i++) {
 
-        // testing and debugging
-        console.log("===========================================" +
-            "\nArtist: " + artist +
-            "\nSong Name: " + songName +
-            "\nPreview Link: " + link +
-            "\nAlbum Name: " + albumName);
+            // store songs data
+            // var songs = data.tracks.items[i];
+            var artist = data.tracks.items[i].album.artists[0].name;
+            var songName = data.tracks.items[i].name;
+            var link = data.tracks.items[i].album.external_urls["spotify"];
+            var albumName = data.tracks.items[i].album.name;
 
-        // console.log(link);
+            // testing and debugging
+            // console.log(songs);
+            console.log("===========================================" +
+                "\nArtist: " + artist +
+                "\nSong Name: " + songName +
+                "\nPreview Link: " + link +
+                "\nAlbum Name: " + albumName);
+
+        }
     });
-};
+}
 
 function movieThis(input) {
 
