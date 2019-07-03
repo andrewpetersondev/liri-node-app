@@ -123,3 +123,19 @@ async function getUser() {
   }
 }
 ```
+
+### Example 2
+
+```
+node liri.js spotify-this-song "beautiful people"
+```
+
+[Spotify Ouput](images/spotify-output.png)
+
+### Example 3
+
+```
+node liri.js movie-this "caddyshack"
+```
+
+[movie output](images/movie.png)

@@ -233,3 +233,37 @@ Concert Date: 08/25/2019
 Venue Name: Chantry Park, IP2 0BS
 Venue Location: Ipswich
 Concert Date: 08/26/2019
+======================= Song 0 =======================
+Artist: Ed Sheeran
+Song Name: Beautiful People (feat. Khalid)
+Album Name: Beautiful People (feat. Khalid)
+Preview Link : https://p.scdn.co/mp3-preview/f94d8d0c1b37773ff493e7d83930545e3425ccd3?cid=7580d062ce384a6a9f5cede2d03732b1
+======================= Song 1 =======================
+Artist: Marilyn Manson
+Song Name: The Beautiful People
+Album Name: Antichrist Superstar
+Preview Link : null
+======================= Song 2 =======================
+Artist: Marilyn Manson
+Song Name: The Beautiful People
+Album Name: Lest We Forget - The Best Of
+Preview Link : null
+======================= Song 3 =======================
+Artist: Lana Del Rey
+Song Name: Beautiful People Beautiful Problems (feat. Stevie Nicks)
+Album Name: Lust For Life
+Preview Link : null
+======================= Song 4 =======================
+Artist: Chris Brown
+Song Name: Beautiful People (feat. Benny Benassi)
+Album Name: F.A.M.E. (Expanded Edition)
+Preview Link : https://p.scdn.co/mp3-preview/bde4b8a866a30bf5ef23b2c3fadf576414d6f2c9?cid=7580d062ce384a6a9f5cede2d03732b1
+=============== Caddyshack ===============
+Movie Title: Caddyshack
+Year of Release: 1980
+Rating IMDB: 7.3
+Rating Rotten Tomatoes: 74%
+Country Produced: USA
+Language: English
+Plot: An exclusive golf course has to deal with a brash new member and a destructive dancing gopher.
+Actors & Actresses: Chevy Chase, Rodney Dangerfield, Ted Knight, Michael O'Keefe
