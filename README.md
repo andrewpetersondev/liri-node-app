@@ -1,19 +1,8 @@
 # liri-node-app
 
-## Instructions
+## Overview
 
-### Valid Commands
-
-concert-this
-spotify-this-song
-movie-this
-do-what-it-says
-
-### One More Thing
-
-If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-In order to meet the Employer Competitive standards and be ready to show your application to employers, the README.md file should meet the following criteria:
+LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives you back data.
 
 Clearly state the problem the app is trying to solve (i.e. what is it doing and why)
 Give a high-level overview of how the app is organized
@@ -22,6 +11,39 @@ Include screenshots, gifs or videos of the app functioning
 Contain a link to a deployed version of the app
 Clearly list the technologies used in the app
 State your role in the app development
+
+### Valid Commands
+
+- concert-this
+- spotify-this-song
+- movie-this
+- do-what-it-says
+
+## Step By Step Instructions
+
+1. Open terminal and navigate to liri-node-app folder.
+
+2. There are 4 valid commands listed above. If you want to see Ed Sheerans's upcoming concerts you would do the following command.
+
+```
+node liri.js concert-this "ed sheeran"
+```
+
+3. The output from the above input looks like this.
+
+[Concert Output](images/concert-output.png)
+
+## Packages
+
+- node spotifiy api
+- axios
+- moment
+- DotEnv
+
+## APIs
+
+- OMDB API
+- Bands in Town API
 
 ## node spotify api search method #1
 
@@ -101,5 +123,3 @@ async function getUser() {
   }
 }
 ```
-
-## dot env package

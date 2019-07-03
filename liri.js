@@ -55,7 +55,9 @@ async function concertThis(input) {
             var venueName = response.data[i].venue.name;
             var venueLocation = response.data[i].venue.city;
             var concertDate = response.data[i].datetime;
+            console.log(concertDate);
             var dateArray = concertDate.split("T");
+            console.log(dateArray);
             var momentDateFormat = moment(dateArray[0]).format("MM/DD/YYYY");
 
             // store results in a the following way so that we can easily pass data into our log.txt file
