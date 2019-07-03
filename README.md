@@ -139,3 +139,7 @@ node liri.js movie-this "caddyshack"
 ```
 
 [movie output](images/movie.png)
+
+## Sources
+
+This project may have code from class activities, office hours notes, or from seeking help from TAs and teachers.
