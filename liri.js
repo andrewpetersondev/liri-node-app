@@ -10,7 +10,7 @@ var moment = require('moment');
 
 // global variables
 // =====================================================================================================================================
-
+ 
 // user inputs 
 var command = process.argv[2];
 var input = process.argv[3];
