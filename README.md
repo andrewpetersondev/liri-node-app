@@ -31,7 +31,7 @@ node liri.js concert-this "ed sheeran"
 
 3. The output from the above input looks like this.
 
-[Concert Output](images/concert-output.png)
+![Concert Output](images/concert-output.png)
 
 ## Packages
 
@@ -130,7 +130,7 @@ async function getUser() {
 node liri.js spotify-this-song "beautiful people"
 ```
 
-[Spotify Ouput](images/spotify-output.png)
+![Spotify Ouput](images/spotify-output.png)
 
 ### Example 3
 
@@ -138,7 +138,7 @@ node liri.js spotify-this-song "beautiful people"
 node liri.js movie-this "caddyshack"
 ```
 
-[movie output](images/movie.png)
+![movie output](images/movie.png)
 
 ## Sources
 
