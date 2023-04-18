@@ -267,3 +267,103 @@ Country Produced: USA
 Language: English
 Plot: An exclusive golf course has to deal with a brash new member and a destructive dancing gopher.
 Actors & Actresses: Chevy Chase, Rodney Dangerfield, Ted Knight, Michael O'Keefe
+======================= Concert 0 =======================
+Venue Name: New Orleans Jazz & Heritage Festival 2023
+Venue Location: New Orleans
+Concert Date: 04/29/2023
+======================= Concert 1 =======================
+Venue Name: AT&T Stadium
+Venue Location: Arlington
+Concert Date: 05/06/2023
+======================= Concert 2 =======================
+Venue Name: NRG Stadium
+Venue Location: Houston
+Concert Date: 05/13/2023
+======================= Concert 3 =======================
+Venue Name: Raymond James Stadium
+Venue Location: Tampa
+Concert Date: 05/20/2023
+======================= Concert 4 =======================
+Venue Name: Mercedes-Benz Stadium
+Venue Location: Atlanta
+Concert Date: 05/27/2023
+======================= Concert 5 =======================
+Venue Name: Lincoln Financial Field
+Venue Location: Philadelphia
+Concert Date: 06/03/2023
+======================= Concert 6 =======================
+Venue Name: MetLife Stadium
+Venue Location: East Rutherford
+Concert Date: 06/10/2023
+======================= Concert 7 =======================
+Venue Name: MetLife Stadium
+Venue Location: East Rutherford
+Concert Date: 06/11/2023
+======================= Concert 8 =======================
+Venue Name: Rogers Centre
+Venue Location: Toronto
+Concert Date: 06/17/2023
+======================= Concert 9 =======================
+Venue Name: Rogers Centre
+Venue Location: Toronto
+Concert Date: 06/18/2023
+======================= Concert 10 =======================
+Venue Name: FedEx Field
+Venue Location: Landover
+Concert Date: 06/24/2023
+======================= Concert 11 =======================
+Venue Name: Gillette Stadium
+Venue Location: Foxborough
+Concert Date: 06/30/2023
+======================= Concert 12 =======================
+Venue Name: Gillette Stadium
+Venue Location: Foxborough
+Concert Date: 07/01/2023
+======================= Concert 13 =======================
+Venue Name: Heinz Field
+Venue Location: Pittsburgh
+Concert Date: 07/08/2023
+======================= Concert 14 =======================
+Venue Name: Ford Field
+Venue Location: Detroit
+Concert Date: 07/15/2023
+======================= Concert 15 =======================
+Venue Name: Nissan Stadium
+Venue Location: Nashville
+Concert Date: 07/22/2023
+======================= Concert 16 =======================
+Venue Name: Soldier Field
+Venue Location: Chicago
+Concert Date: 07/29/2023
+======================= Concert 17 =======================
+Venue Name: Arrowhead Stadium
+Venue Location: Kansas City
+Concert Date: 08/05/2023
+======================= Concert 18 =======================
+Venue Name: U.S. Bank Stadium
+Venue Location: Minneapolis
+Concert Date: 08/12/2023
+======================= Concert 19 =======================
+Venue Name: Empower Field at Mile High
+Venue Location: Denver
+Concert Date: 08/19/2023
+======================= Concert 20 =======================
+Venue Name: Lumen Field - Muckleshoot Plaza
+Venue Location: Seattle
+Concert Date: 08/26/2023
+======================= Concert 21 =======================
+Venue Name: BC Place
+Venue Location: Vancouver
+Concert Date: 09/02/2023
+======================= Concert 22 =======================
+Venue Name: Allegiant Stadium
+Venue Location: Las Vegas
+Concert Date: 09/09/2023
+======================= Concert 23 =======================
+Venue Name: Levi's Stadium
+Venue Location: Santa Clara
+Concert Date: 09/16/2023
+======================= Concert 24 =======================
+Venue Name: SoFi Stadium
+Venue Location: Inglewood
+Concert Date: 09/23/2023
