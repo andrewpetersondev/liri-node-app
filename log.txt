@@ -367,3 +367,73 @@ Concert Date: 09/16/2023
 Venue Name: SoFi Stadium
 Venue Location: Inglewood
 Concert Date: 09/23/2023
+=============== Trumbo ===============
+Movie Title: Trumbo
+Year of Release: 2015
+Rating IMDB: 7.4
+Rating Rotten Tomatoes: 74%
+Country Produced: United States
+Language: English
+Plot: In 1947, Dalton Trumbo was Hollywood's top screenwriter, until he and other artists were jailed and blacklisted for their political beliefs.
+Actors & Actresses: Bryan Cranston, Diane Lane, Helen Mirren
+======================= Song 0 =======================
+Artist: Ed Sheeran
+Song Name: Shape of You
+Album Name: ÷ (Deluxe)
+Preview Link : https://p.scdn.co/mp3-preview/7339548839a263fd721d01eb3364a848cad16fa7?cid=7580d062ce384a6a9f5cede2d03732b1
+======================= Song 1 =======================
+Artist: Ed Sheeran
+Song Name: Shape of You (feat. Nyla & Kranium) - Major Lazer Remix
+Album Name: Shape of You (feat. Nyla & Kranium) [Major Lazer Remix]
+Preview Link : https://p.scdn.co/mp3-preview/76ae9fa5df152e3535344df350c9c04e35117077?cid=7580d062ce384a6a9f5cede2d03732b1
+======================= Song 2 =======================
+Artist: Fame on Fire
+Song Name: Shape of You
+Album Name: Shape of You
+Preview Link : https://p.scdn.co/mp3-preview/a3d580ad02d52c22d9dccbe02cc7cbb58d522fda?cid=7580d062ce384a6a9f5cede2d03732b1
+======================= Song 3 =======================
+Artist: Ed Sheeran
+Song Name: Shape of You - Stormzy Remix
+Album Name: Shape of You (Stormzy Remix)
+Preview Link : https://p.scdn.co/mp3-preview/d55a3a211072df362f2b88967101473982f4df14?cid=7580d062ce384a6a9f5cede2d03732b1
+======================= Song 4 =======================
+Artist: Ed Sheeran
+Song Name: Shape of You (feat. Zion & Lennox) - Latin Remix
+Album Name: Shape of You (feat. Zion & Lennox) [Latin Remix]
+Preview Link : https://p.scdn.co/mp3-preview/945688fa0cfe1ad9f1fd490beab1c6671f3cfebe?cid=7580d062ce384a6a9f5cede2d03732b1
+=============== The Revenant ===============
+Movie Title: The Revenant
+Year of Release: 2015
+Rating IMDB: 8.0
+Rating Rotten Tomatoes: 78%
+Country Produced: Hong Kong, Taiwan, United States
+Language: English, Pawnee, French
+Plot: A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.
+Actors & Actresses: Leonardo DiCaprio, Tom Hardy, Will Poulter
+=============== The Revenant ===============
+Movie Title: The Revenant
+Year of Release: 2015
+Rating IMDB: 8.0
+Rating Rotten Tomatoes: 78%
+Country Produced: Hong Kong, Taiwan, United States
+Language: English, Pawnee, French
+Plot: A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.
+Actors & Actresses: Leonardo DiCaprio, Tom Hardy, Will Poulter
+=============== The Revenant ===============
+Movie Title: The Revenant
+Year of Release: 2015
+Rating IMDB: 8.0
+Rating Rotten Tomatoes: 78%
+Country Produced: Hong Kong, Taiwan, United States
+Language: English, Pawnee, French
+Plot: A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.
+Actors & Actresses: Leonardo DiCaprio, Tom Hardy, Will Poulter
+=============== The Revenant ===============
+Movie Title: The Revenant
+Year of Release: 2015
+Rating IMDB: 8.0
+Rating Rotten Tomatoes: 78%
+Country Produced: Hong Kong, Taiwan, United States
+Language: English, Pawnee, French
+Plot: A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.
+Actors & Actresses: Leonardo DiCaprio, Tom Hardy, Will Poulter

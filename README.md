@@ -71,3 +71,13 @@ node liri.js movie-this "caddyshack"
 ```
 
 ![movie output](images/movie.png)
+
+### Example 4
+
+```js
+node liri.js do-what-it-says
+```
+
+this command takes input from the file random.txt to perform a query
+
+![do what it says](images/do-what-it-says.png)
